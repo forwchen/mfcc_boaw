@@ -70,7 +70,7 @@ Sample usage: `python kmeans.py mfcc_db.hdf5 -k 128 -n 250000`
 **Note**
 
 * The recommended value for `cluster` is 128, which is also the dimension for BoAW representations.
-* The number of samples depends on the size of the total MFCC data in `mfcc_db`, usually 1/10 of `mfcc_db` should suffice.
+* The number of samples depends on the size of the total MFCC data in `mfcc_db`, usually 1/10 of that should suffice.
 
 ### 3.Compute BoAW representations with `boaw_extract.py`
 ```
