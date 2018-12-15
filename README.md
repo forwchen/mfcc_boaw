@@ -90,5 +90,6 @@ Sample usage: `python boaw_extract.py vtt_mfcc.hdf5 vtt_boaw.hdf5 kmeans_model.p
 
 ## Dependencies
 * Python 2.7
-* FFmpeg: Install on Ubuntu. Other platforms.
-* Python libraries: pip install -r requirements.txt
+* FFmpeg: Install on [Ubuntu](https://tecadmin.net/install-ffmpeg-on-linux/). Other [platforms](https://www.google.com/).
+* Python libraries: `pip install -r requirements.txt`, 
+
