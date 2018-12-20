@@ -54,7 +54,7 @@ for vid in tqdm(all_videos, ncols=64):
     # Step 1. extract audio
     call(["ffmpeg", "-loglevel", "panic", "-i", vid, "-q:a", "0", "-c:a", "pcm_f32le", "-ac", "1", wav_out])
     if not os.path.exists(wav_out):
-        # this video does not have audio channel
+        print 'this video %s does not have audio channel' % vvid
         call(["rm", "-rf", v_dir])
         continue
 
